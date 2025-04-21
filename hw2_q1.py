@@ -47,3 +47,7 @@ if __name__ == "__main__":
         print("Dashes (-):", data.count("-"))
         print("Dots (.):", data.count("."))
         print("Newlines (\\n):", data.count("\n"))  
+if __name__ == '__main__':
+    # Question 1
+    english_to_morse()  # uses default input_file and output_file
+    print("Question 1 solution: Morse code file created.")

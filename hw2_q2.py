@@ -56,3 +56,13 @@ def meetup(agent_listing: tuple) -> list:
             i += 1
 
     return updated + untouched
+if __name__ == '__main__':
+    # Question 2
+    sample_data = (
+        Agent("Mark", Condition.SICK),
+        Agent("Cure", Condition.CURE),
+        Agent("Lora", Condition.DYING)
+    )
+
+    result = meetup(sample_data)
+    print("Question 2 solution:", result)
